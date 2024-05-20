@@ -31,7 +31,7 @@ public class App {
             if (num2 == 0) {
                 System.out.println("Division by zero is undefined");
             }else {
-                float ans = (float) num1 / num2;
+                double ans = (double) num1 / num2;
             System.out.println("The answer is: " + ans);
             }
         }
